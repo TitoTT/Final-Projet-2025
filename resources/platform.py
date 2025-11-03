@@ -3,11 +3,11 @@ import pygame
 import config
 
 
-class World:
-    def __init__(self, width, height):
+class Platform(pygame.sprite.Sprite):
+    def __init__(self, x, y, width, height):
         self.width = width
         self.height = height
 
 
     def draw(self, screen):
-        
+        pass
